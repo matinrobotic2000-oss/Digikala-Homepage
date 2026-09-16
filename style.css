@@ -160,3 +160,64 @@ header {
   background-color: red;
   border-radius: 6px;
 }
+/* NAVIGATION */
+
+.navigation {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.navigation-container {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navigation-container button {
+  height: 50px;
+  padding: 0 5px;
+  border: none;
+  background-color: white;
+
+  color: #3f3f46;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  border-bottom: 2px solid transparent;
+}
+
+.navigation-container button:hover {
+  color: rgb(216, 44, 44);
+  border-bottom-color: rgb(216, 44, 44);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 50px;
+}
+
+.nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #71717a;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item a:hover {
+  border-bottom-color: rgb(216, 44, 44);
+  color: rgb(216, 44, 44);
+}
