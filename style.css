@@ -13,6 +13,7 @@ body {
   background-color: #f8f8f8;
   color: #3f3f46;
   line-height: 1.6;
+  min-width: 320px;
 }
 
 img {
@@ -42,4 +43,13 @@ header {
   background-color: #fff;
   padding: 10px 5%;
   box-sizing: 0 2px 5px red;
+}
+/* GENERAL */
+.header,
+.navigation-container,
+.hero,
+.categories,
+footer {
+  width: min(100% - 32px, 1280px);
+  margin-inline: auto;
 }
