@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,130 +8,163 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header>
-      <div class="header">
-        <!-- LOGO -->
-        <nav class="nav">
-          <img
-            src="img/digikala.svg"
-            alt="Digikala logo"
-            class="nav-logo"
-            id="logo"
-          />
-        </nav>
-        <!-- Search Box -->
-        <form class="search">
-          <input type="search" placeholder="جستجو محصولات" />
-          <button type="submit">جستجو</button>
-        </form>
-        <!-- User -->
-        <div class="user-action">
-          <button class="login-btn">ورود / ثبت نام</button>
-          <img src="img/shopping_cart.svg" class="shopping-cart" />
+    <div class="homepage-hidden">
+      <header>
+        <div class="header">
+          <!-- LOGO -->
+          <nav class="nav">
+            <img
+              src="img/digikala.svg"
+              alt="Digikala logo"
+              class="nav-logo"
+              id="logo"
+            />
+          </nav>
+          <!-- Search Box -->
+          <form class="search">
+            <input type="search" placeholder="جستجو محصولات" />
+            <button type="submit">جستجو</button>
+          </form>
+          <!-- User -->
+          <div class="user-action">
+            <button class="login-btn">ورود / ثبت نام</button>
+            <img src="img/shopping_cart.svg" class="shopping-cart" />
+          </div>
         </div>
-      </div>
-    </header>
-    <!-- NAV LINKS -->
-    <nav class="navigation">
-      <div class="navigation-container">
-        <button>دسته بندی کالاها</button>
-        <ul class="nav-links">
-          <li class="nav-item">
-            <a href="#">شگفت انگیزها</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav__link">سوپر مارکت</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav__link">طلا و نقره دیجیتال</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav__link">پرفروش ترین ها</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav__link">دیجی استایل</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav__link">در دیجیکالا بفروشید</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- HERO SLIDER -->
-    <section class="hero">
-      <div class="hero-slider">
-        <img src="img/hero1.webp" />
-      </div>
-      <div class="hero-slider">
-        <img src="img/hero2.gif" />
-      </div>
-      <div class="hero-slider">
-        <img src="img/hero3.webp" />
-      </div>
-      <div class="hero-slider">
-        <img src="img/hero4.webp" />
-      </div>
-      <div class="hero-slider">
-        <img src="img/hero5.webp" />
-      </div>
-      <div class="slider-controls">
-        <button>بعدی</button>
-        <button>قبلی</button>
-      </div>
-    </section>
-    <!-- CATEGORIES -->
-    <section class="categories">
-      <div class="section-header">
-        <h2>دسته بندی ها</h2>
-      </div>
-      <div class="category-list">
-        <img src="img/mobile.webp" />
-        <h3>موبایل</h3>
-      </div>
-      <div class="category-list">
-        <img src="img/laptop.webp" />
-        <h3>لبتاپ</h3>
-      </div>
-      <div class="category-list">
-        <img src="img/kichentool.webp" />
-        <h3>لوازم آشپزخانه</h3>
-      </div>
-      <div class="category-list">
-        <img src="img/petshop.webp" />
-        <h3>پتشاپ</h3>
-      </div>
-      <div class="category-list">
-        <img src="img/hometool.webp" />
-        <h3>لوازم خانه</h3>
-      </div>
-    </section>
-    <footer>
-      <div class="footer-container">
-        <section>
-          <h3>راهنمای خرید</h3>
+      </header>
+      <!-- NAV LINKS -->
+      <nav class="navigation">
+        <div class="navigation-container">
+          <button>دسته بندی کالاها</button>
+          <ul class="nav-links">
+            <li class="nav-item">
+              <a href="#">شگفت انگیزها</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav__link">سوپر مارکت</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav__link">طلا و نقره دیجیتال</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav__link">پرفروش ترین ها</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav__link">دیجی استایل</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav__link">در دیجیکالا بفروشید</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- HERO SLIDER -->
+      <section class="hero">
+        <div class="hero-slider">
+          <img src="img/hero1.webp" />
+        </div>
+        <div class="hero-slider">
+          <img src="img/hero2.gif" />
+        </div>
+        <div class="hero-slider">
+          <img src="img/hero3.webp" />
+        </div>
+        <div class="hero-slider">
+          <img src="img/hero4.webp" />
+        </div>
+        <div class="hero-slider">
+          <img src="img/hero5.webp" />
+        </div>
+        <div class="slider-controls">
+          <button>بعدی</button>
+          <button>قبلی</button>
+        </div>
+      </section>
+      <!-- CATEGORIES -->
+      <section class="categories">
+        <div class="section-header">
+          <h2>دسته بندی ها</h2>
+        </div>
+        <div class="category-list">
+          <img src="img/mobile.webp" />
+          <h3>موبایل</h3>
+        </div>
+        <div class="category-list">
+          <img src="img/laptop.webp" />
+          <h3>لبتاپ</h3>
+        </div>
+        <div class="category-list">
+          <img src="img/kichentool.webp" />
+          <h3>لوازم آشپزخانه</h3>
+        </div>
+        <div class="category-list">
+          <img src="img/petshop.webp" />
+          <h3>پتشاپ</h3>
+        </div>
+        <div class="category-list">
+          <img src="img/hometool.webp" />
+          <h3>لوازم خانه</h3>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-container">
+          <section>
+            <h3>راهنمای خرید</h3>
 
-          <a href="#">نحوه ثبت سفارش</a>
-          <a href="#">روش‌های پرداخت</a>
-          <a href="#">پیگیری سفارش</a>
-        </section>
+            <a href="#">نحوه ثبت سفارش</a>
+            <a href="#">روش‌های پرداخت</a>
+            <a href="#">پیگیری سفارش</a>
+          </section>
 
-        <section>
-          <h3>خدمات مشتریان</h3>
+          <section>
+            <h3>خدمات مشتریان</h3>
 
-          <a href="#">پاسخ به پرسش‌ها</a>
-          <a href="#">شرایط بازگشت کالا</a>
-          <a href="#">تماس با ما</a>
-        </section>
+            <a href="#">پاسخ به پرسش‌ها</a>
+            <a href="#">شرایط بازگشت کالا</a>
+            <a href="#">تماس با ما</a>
+          </section>
 
-        <section>
-          <h3>درباره فروشگاه</h3>
+          <section>
+            <h3>درباره فروشگاه</h3>
 
-          <a href="#">درباره ما</a>
-          <a href="#">قوانین</a>
-        </section>
-      </div>
+            <a href="#">درباره ما</a>
+            <a href="#">قوانین</a>
+          </section>
+        </div>
 
-      <div class="footer-bottom">
-        <p>تمامی حقوق محفوظ است.</p>
-      </div>
-    </footer>
+        <div class="footer-bottom">
+          <p>تمامی حقوق محفوظ است.</p>
+        </div>
+      </footer>
+    </div>
+    <!-- LOGIN PAGE -->
+    <div class="login-page">
+      <section class="login-box">
+        <img src="img/digikala.svg" />
+        <div class="login-header">
+          <h1>ورود یا ثبت‌نام</h1>
+
+          <p>شماره موبایل خود را وارد کنید</p>
+        </div>
+        <!-- FORM -->
+        <form class="login-form">
+          <div class="form-group">
+            <label> شماره موبایل </label>
+            <input type="tel" id="phone" placeholder="09xxxxxxxxx" />
+          </div>
+
+          <button type="submit" class="login-submit">ورود</button>
+        </form>
+
+        <p class="login-terms">
+          با ورود و ثبت‌نام در سایت، شما
+          <a href="#"> شرایط و قوانین </a>
+          استفاده از خدمات را می‌پذیرید.
+        </p>
+
+        <a class="back-home"> بازگشت به فروشگاه </a>
+      </section>
+    </div>
   </body>
 </html>
