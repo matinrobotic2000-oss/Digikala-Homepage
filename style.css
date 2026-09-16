@@ -150,7 +150,7 @@ header {
   color: rgb(216, 44, 44);
 }
 
-.shoppin-cart {
+.shopping-cart {
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -373,4 +373,133 @@ footer {
 .footer-bottom p {
   color: #71717a;
   font-size: 15px;
+}
+
+/* login page */
+
+.homepage-hidden {
+  display: none;
+}
+
+.login-page {
+  display: flex;
+  min-height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 24px;
+
+  background-color: white;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 32px;
+
+  border: 1px solid grey;
+  border-radius: 12px;
+
+  background-color: #f6f8fb;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 1);
+}
+
+.login-header {
+  margin-bottom: 28px;
+}
+
+.login-header h1 {
+  margin-bottom: 12px;
+
+  color: #3f3f46;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.login-header p {
+  color: #5f5f65;
+  font-size: 15px;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: #3f3f46;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-group input {
+  height: 48px;
+  padding: 0 14px;
+  border: 1px solid #a1a1aa;
+  border-radius: 8px;
+  outline: none;
+  background-color: #ffffff;
+  color: #3f3f46;
+  font-size: 14px;
+}
+
+.form-group input::placeholder {
+  color: #3f3f46;
+}
+
+.form-group input:focus {
+  border-color: red;
+  box-shadow: 0 4px 20px rgb(128, 8, 8);
+}
+
+.login-submit {
+  width: 100%;
+  height: 48px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #ef394e;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.login-submit:hover {
+  background-color: #d92d42;
+}
+
+.login-terms {
+  margin-top: 24px;
+  color: #71717a;
+  font-size: 11px;
+  text-align: center;
+}
+
+.back-home {
+  display: flex;
+  cursor: pointer;
+  margin-top: 20px;
+  color: #71717a;
+  font-size: 12px;
+  text-align: center;
+}
+
+.back-home:hover {
+  color: #ef394e;
 }
