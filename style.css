@@ -74,7 +74,7 @@ header {
   width: 150px;
   height: auto;
 }
-/* SEARCH */
+/* SEARCH BOX */
 .search {
   flex: 1;
 
@@ -125,4 +125,38 @@ header {
 
 .search button:hover {
   background-color: rgb(197, 194, 194);
+}
+/* LOGIN BUTTON  */
+.user-action {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.login-btn {
+  padding: 10px 16px;
+
+  border: 1px solid #d4d4d8;
+  border-radius: 6px;
+
+  background-color: white;
+  color: black;
+
+  font-size: 13px;
+}
+
+.login-btn:hover {
+  border-color: rgb(216, 44, 44);
+  color: rgb(216, 44, 44);
+}
+
+.shoppin-cart {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.shopping-cart:hover {
+  background-color: red;
+  border-radius: 6px;
 }
