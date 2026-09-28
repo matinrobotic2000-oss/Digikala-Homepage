@@ -3,32 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" />
     <title>Digikala HomePage</title>
     <script defer src="script.js"></script>
   </head>
-  <body>
+  <body
+    class="bg-white text-shadow-gray-700 font-[Tahoma,sans-serif] leading-[1.6] min-w-[320px]"
+  >
     <div id="homepage-hidden">
-      <header>
-        <div class="header">
+      <header class="bg-white border-b border-gray-400 w-full">
+        <div
+          class="header max-w-7xl flex w-full mx-h-20 mx-auto items-center py-3.75 gap-6"
+        >
           <!-- LOGO -->
-          <nav class="nav">
+          <nav class="nav w-37.5 h-auto shrink-0">
             <img
               src="img/digikala.svg"
               alt="Digikala logo"
-              class="nav-logo"
+              class="nav-logo w-full h-auto block"
               id="logo"
             />
           </nav>
           <!-- Search Box -->
-          <form class="search">
-            <input type="search" placeholder="جستجو محصولات" />
-            <button type="submit">جستجو</button>
+          <form
+            class="search flex flex-1 items-center max-w-162.5 h-12 bg-white rounded-full overflow-hidden"
+          >
+            <input
+              class="flex-1 w-full h-full px-4.5 border-none outline-none bg-gray-300 text-black text-sm placeholder:text-black focus:bg-white"
+              type="search"
+              placeholder="جستجو محصولات"
+            />
+            <button
+              class="h-full px-5 border-none bg-red-400 text-white text-sm cursor-pointer hover:bg-gray-400"
+              type="submit"
+            >
+              جستجو
+            </button>
           </form>
           <!-- User -->
-          <div class="user-action">
-            <button class="login-btn">ورود / ثبت نام</button>
-            <img src="img/shopping_cart.svg" class="shopping-cart" />
+          <div class="user-action flex items-center gap-4.5 shrink-0">
+            <button
+              class="login-btn px-4 py-2.5 border border-gray-400 rounded-md bg-white text-black text-[13px] cursor-pointer hover:border-red-400 hover:text-red-400"
+            >
+              ورود / ثبت نام
+            </button>
+            <img
+              src="img/shopping_cart.svg"
+              class="shopping-cart w-7.5 h-7.5 cursor-pointer hover:rounded-md hover:bg-red-400 p-0.5 rounded"
+            />
           </div>
         </div>
       </header>
