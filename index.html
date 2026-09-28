@@ -134,7 +134,7 @@
       </section>
       <!-- CATEGORIES -->
       <section
-        class="categories w-[calc(100%-32px)] max-w-7xl mx-auto mt-10 flex gap-6 flex-wrap"
+        class="categories w-[calc(100%-32px)] max-w-7xl mx-auto mt-10 pb-10 flex gap-6 flex-wrap border-b-2 border-gray-400"
       >
         <div class="section-header w-full text-right">
           <h2 class="font-bold text-2xl text-gray-600">دسته بندی ها</h2>
@@ -171,39 +171,51 @@
         </div>
       </section>
       <!-- FOOTER -->
-      <footer>
-        <div class="footer-container">
-          <section>
-            <h3>راهنمای خرید</h3>
+      <footer class="flex flex-col">
+        <div
+          class="footer-container p-2.5 border-b-2 border-gray-400 flex flex-row gap-15 items-center justify-evenly"
+        >
+          <section class="flex flex-col gap-2 m-5">
+            <h3 class="font-bold text-xl">راهنمای خرید</h3>
 
-            <a href="#">نحوه ثبت سفارش</a>
-            <a href="#">روش‌های پرداخت</a>
-            <a href="#">پیگیری سفارش</a>
+            <a href="#" class="text-gray-700 hover:text-red-400"
+              >نحوه ثبت سفارش</a
+            >
+            <a href="#" class="text-gray-700 hover:text-red-400"
+              >روش‌های پرداخت</a
+            >
+            <a href="#" class="text-gray-700 hover:text-red-400"
+              >پیگیری سفارش</a
+            >
           </section>
 
-          <section>
-            <h3>خدمات مشتریان</h3>
+          <section class="flex flex-col gap-2 m-5">
+            <h3 class="font-bold text-xl">خدمات مشتریان</h3>
 
-            <a href="#">پاسخ به پرسش‌ها</a>
-            <a href="#">شرایط بازگشت کالا</a>
-            <a href="#">تماس با ما</a>
+            <a href="#" class="text-gray-700 hover:text-red-400"
+              >پاسخ به پرسش‌ها</a
+            >
+            <a href="#" class="text-gray-700 hover:text-red-400"
+              >شرایط بازگشت کالا</a
+            >
+            <a href="#" class="text-gray-700 hover:text-red-400">تماس با ما</a>
           </section>
 
-          <section>
-            <h3>درباره فروشگاه</h3>
+          <section class="flex flex-col gap-2 m-5">
+            <h3 class="font-bold text-xl">درباره فروشگاه</h3>
 
-            <a href="#">درباره ما</a>
-            <a href="#">قوانین</a>
+            <a href="#" class="text-gray-700 hover:text-red-400">درباره ما</a>
+            <a href="#" class="text-gray-700 hover:text-red-400">قوانین</a>
           </section>
         </div>
 
-        <div class="footer-bottom">
-          <p>تمامی حقوق محفوظ است.</p>
+        <div class="footer-bottom flex justify-center">
+          <p class="m-2">تمامی حقوق محفوظ است.</p>
         </div>
       </footer>
     </div>
     <!-- LOGIN PAGE -->
-    <main class="login-page">
+    <main class="login-page hidden">
       <section class="login-box">
         <img class="close-btn" src="img/close.svg" />
         <div class="loginpage-logo">
