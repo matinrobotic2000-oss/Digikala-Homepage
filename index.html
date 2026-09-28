@@ -34,7 +34,7 @@
               placeholder="جستجو محصولات"
             />
             <button
-              class="h-full px-5 border-none bg-red-400 text-white text-sm cursor-pointer hover:bg-gray-400"
+              class="h-full px-5 border-none bg-red-500 text-white text-sm cursor-pointer hover:bg-gray-400"
               type="submit"
             >
               جستجو
@@ -55,7 +55,7 @@
         </div>
       </header>
       <!-- NAV LINKS -->
-      <nav class="navigation w-full h-auto border-b-2 mb-2 border-gray-400">
+      <nav class="navigation w-full h-auto border-b mb-2 border-gray-400">
         <div class="navigation-container flex flex-row min-h-15">
           <button
             class="cursor-pointer ml-5 mr-5 font-bold hover:border-b-2 border-red-500"
@@ -215,34 +215,55 @@
       </footer>
     </div>
     <!-- LOGIN PAGE -->
-    <main class="login-page hidden">
-      <section class="login-box">
-        <img class="close-btn" src="img/close.svg" />
-        <div class="loginpage-logo">
+    <main
+      class="login-page hidden min-h-screen flex justify-center items-center bg-white p-6"
+    >
+      <section
+        class="login-box border-2 border-gray-400 rounded-2xl p-8 flex flex-col shadow-2xl bg-gray-100"
+      >
+        <img
+          class="close-btn w-5 h-5 hover:bg-red-400 rounded cursor-pointer"
+          src="img/close.svg"
+        />
+        <div class="loginpage-logo flex justify-center">
           <img src="img/digikala.svg" />
         </div>
-        <div class="login-header">
-          <h1>ورود یا ثبت‌نام</h1>
+        <div class="login-header flex flex-col">
+          <h1 class="font-bold m-2">ورود یا ثبت‌نام</h1>
 
-          <p>شماره موبایل خود را وارد کنید</p>
+          <p class="font-normal m-2">شماره موبایل خود را وارد کنید</p>
         </div>
         <!-- FORM -->
         <form class="login-form">
-          <div class="form-group">
-            <label> شماره موبایل </label>
-            <input type="tel" id="phone" placeholder="09xxxxxxxxx" />
+          <div class="form-group flex flex-col">
+            <label class="text-lg p-2 mb-1"> شماره موبایل </label>
+            <input
+              class="bg-white w-full p-1.5 border outline-none border-gray-300 rounded-lg h-12 focus:border-red-500 focus:shadow-[0_4px_20px_rgb(128,8,8)]"
+              type="tel"
+              id="phone"
+              placeholder="09xxxxxxxxx"
+            />
           </div>
 
-          <button type="submit" class="login-submit">ورود</button>
+          <button
+            type="submit"
+            class="login-submit w-full h-12 mt-5 border-none rounded-lg bg-red-500 text-white text-sm font-bold cursor-pointer hover:bg-red-400"
+          >
+            ورود
+          </button>
         </form>
 
-        <p class="login-terms">
+        <p class="login-terms text-[11px] mt-5 mb-5">
           با ورود و ثبت‌نام در سایت، شما
-          <a href="#"> شرایط و قوانین </a>
+          <a href="#" class="hover:text-red-400"> شرایط و قوانین </a>
           استفاده از خدمات را می‌پذیرید.
         </p>
 
-        <a class="back-home"> بازگشت به فروشگاه </a>
+        <a
+          class="back-home text-[12px] flex justify-center hover:text-red-400 cursor-pointer"
+        >
+          بازگشت به فروشگاه
+        </a>
       </section>
     </main>
   </body>
