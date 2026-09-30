@@ -8,10 +8,10 @@
     <script defer src="script.js"></script>
   </head>
   <body
-    class="bg-white text-shadow-gray-700 font-[Tahoma,sans-serif] leading-[1.6] min-w-[320px]"
+    class="bg-gray-100 text-shadow-gray-700 font-[Tahoma,sans-serif] leading-[1.6] min-w-[320px]"
   >
     <div id="homepage-hidden">
-      <header class="bg-white border-b border-gray-400 w-full">
+      <header class="border-b border-gray-400 w-full">
         <div
           class="header max-w-7xl flex w-full mx-h-20 mx-auto items-center py-3.75 gap-6"
         >
@@ -29,7 +29,7 @@
             class="search flex flex-1 items-center max-w-162.5 h-12 bg-white rounded-full overflow-hidden"
           >
             <input
-              class="flex-1 w-full h-full px-4.5 border-none outline-none bg-gray-300 text-black text-sm placeholder:text-black focus:bg-gray-100"
+              class="flex-1 w-full h-full px-4.5 border-none outline-none bg-gray-300 text-black text-sm placeholder:text-black focus:bg-gray-200"
               type="search"
               placeholder="جستجو محصولات"
             />
@@ -43,7 +43,7 @@
           <!-- User -->
           <div class="user-action flex items-center gap-4.5 shrink-0">
             <button
-              class="login-btn px-4 py-2.5 border border-gray-400 rounded-md bg-white text-black text-[13px] cursor-pointer hover:border-red-400 hover:text-red-400"
+              class="login-btn px-4 py-2.5 border border-gray-400 rounded-md bg-gray-100 text-black text-[13px] cursor-pointer hover:border-red-400 hover:text-red-400"
             >
               ورود / ثبت نام
             </button>
@@ -121,12 +121,12 @@
           class="slider-controls absolute bottom-5 right-5 z-10 flex gap-2.5"
         >
           <button
-            class="next-btn text-white bg-gray-400 py-1 px-2 rounded-lg hover:bg-red-400 cursor-pointer"
+            class="next-btn p-1 bg-white/20 rounded-xl cursor-pointer backdrop-blur-md border border-white/30 text-white shadow-lg hover:bg-white/30 hover:border-white/50 transition-all duration-300 active:scale-95"
           >
             بعدی
           </button>
           <button
-            class="back-btn text-white bg-gray-400 py-1 px-2 rounded-lg hover:bg-red-400 cursor-pointer"
+            class="back-btn p-1 bg-white/20 rounded-xl cursor-pointer backdrop-blur-md border border-white/30 text-white shadow-lg hover:bg-white/30 hover:border-white/50 transition-all duration-300 active:scale-95"
           >
             قبلی
           </button>
@@ -142,31 +142,46 @@
         <div
           class="category-list cursor-pointer min-w-40 flex flex-col items-center gap-3 p-4 border border-transparent rounded-[10px] transition-transform duration-200 hover:-translate-y-1 hover:border-gray-500"
         >
-          <img src="img/mobile.webp" class="w-32 h-32 object-contain" />
+          <img
+            src="img/mobile.webp"
+            class="w-32 h-32 object-contain rounded-2xl"
+          />
           <h3 class="font-medium">موبایل</h3>
         </div>
         <div
           class="category-list cursor-pointer min-w-40 flex flex-col items-center gap-3 p-4 border border-transparent rounded-[10px] transition-transform duration-200 hover:-translate-y-1 hover:border-gray-500"
         >
-          <img src="img/laptop.webp" class="w-32 h-32 object-contain" />
+          <img
+            src="img/laptop.webp"
+            class="w-32 h-32 object-contain rounded-2xl"
+          />
           <h3 class="font-medium">لبتاپ</h3>
         </div>
         <div
           class="category-list cursor-pointer min-w-40 flex flex-col items-center gap-3 p-4 border border-transparent rounded-[10px] transition-transform duration-200 hover:-translate-y-1 hover:border-gray-500"
         >
-          <img src="img/kichentool.webp" class="w-32 h-32 object-contain" />
+          <img
+            src="img/kichentool.webp"
+            class="w-32 h-32 object-contain rounded-2xl"
+          />
           <h3 class="font-medium">لوازم آشپزخانه</h3>
         </div>
         <div
           class="category-list cursor-pointer min-w-40 flex flex-col items-center gap-3 p-4 border border-transparent rounded-[10px] transition-transform duration-200 hover:-translate-y-1 hover:border-gray-500"
         >
-          <img src="img/petshop.webp " class="w-32 h-32 object-contain" />
+          <img
+            src="img/petshop.webp "
+            class="w-32 h-32 object-contain rounded-2xl"
+          />
           <h3 class="font-medium">پتشاپ</h3>
         </div>
         <div
           class="category-list cursor-pointer min-w-40 flex flex-col items-center gap-3 p-4 border border-transparent rounded-[10px] transition-transform duration-200 hover:-translate-y-1 hover:border-gray-500"
         >
-          <img src="img/hometool.webp" class="w-32 h-32 object-contain" />
+          <img
+            src="img/hometool.webp"
+            class="w-32 h-32 object-contain rounded-2xl"
+          />
           <h3 class="font-medium">لوازم خانه</h3>
         </div>
       </section>
@@ -216,7 +231,7 @@
     </div>
     <!-- LOGIN PAGE -->
     <main
-      class="login-page hidden min-h-screen flex justify-center items-center bg-white p-6"
+      class="login-page hidden min-h-screen justify-center items-center bg-white p-6"
     >
       <section
         class="login-box border-2 border-gray-400 rounded-2xl p-8 flex flex-col shadow-2xl bg-gray-100"
